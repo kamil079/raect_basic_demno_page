@@ -1,13 +1,16 @@
-import Header from './components/Header';
-import Main from './components/Main';
+import Header from './components/Header/Header.jsx';
+import Main from './components/Main.jsx';
+import Examples from './components/Examples.jsx';
 
-function App() {
+
+export default function App() {
   return (
     <div>
       <Header />
-      <Main />
+      <main>
+        <Main />
+        <Examples />
+      </main>
     </div>
   );
-}
-
-export default App;
+}  
