@@ -1,7 +1,8 @@
+import {  useState } from 'react';
+
 import Header from './components/Header/Header.jsx';
 import Main from './components/Main.jsx';
 import Examples from './components/Examples.jsx';
-
 
 export default function App() {
   return (
@@ -13,4 +14,4 @@ export default function App() {
       </main>
     </div>
   );
-}  
+} 
